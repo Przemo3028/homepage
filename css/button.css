@@ -1,0 +1,20 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.button {
+    color: #0000ff;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 6px 5px 9px -1px #8c8578;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: hsl(0, 0%, 70%);
+}

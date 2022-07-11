@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.list {
+    border: 2px solid #948c8c;
+    border-radius: 10px;
+    background-color: #c0c0c0;
+    box-shadow: 6px 5px 9px -1px #8C8577;
+    text-align: center;
+}
+
+.list__link {
+    color: #0000ff;
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+.list__link:visited {
+    color: #1b61e4
+}
+
+.list__link:hover {
+    color: #ffffff;
+
+}
+
+.list__link:active {
+    color: #808080;
+}

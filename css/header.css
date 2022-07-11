@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    color: #0000ff;
+    border: 2px solid #948c8c;
+    background-color: #c0c0c0;
+    box-shadow: 6px 5px 9px -1px #8C8577;
+    margin-top: 10px;
+}

@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #faebd7;
+    margin: auto;
+    max-width: 800px;
+}
+
+.js-bodySecondaryBackground {
+    background-color: #ffffffd7;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przemek T. - moja strona</title>
+    <link href="CSS/body.css" rel="stylesheet">
+    <link href="CSS/button.css" rel="stylesheet">
+    <link href="CSS/footer.css" rel="stylesheet">
+    <link href="CSS/head.css" rel="stylesheet">
+    <link href="CSS/header.css" rel="stylesheet">
+    <link href="CSS/image.css" rel="stylesheet">
+    <link href="CSS/list.css" rel="stylesheet">
+    <link href="CSS/paragraph.css" rel="stylesheet">
+    <link href="CSS/table.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+
+    <header class="header">
+        Moja pierwsza strona ✅
+    </header>
+    <nav>
+        <ul class="list">
+            <li style="display:inline"><a class="list__link" href="#Krótka_notka">Krótka notka</a></li>
+            <li style="display:inline"><a class="list__link" href="#Praca">Praca</a></li>
+            <li style="display:inline"><a class="list__link" href="#Zainteresowania">Zainteresowania</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 class="head">O mnie</h1>
+
+        <img class="image" src="https://i.ibb.co/Smw02t5/Prz.jpg" alt="Przemek">
+        <section id="Krótka_notka">
+            <h2 class="head">Krótka notka 💬</h2>
+
+            <p class="paragraph">Nazywam się <strong>Przemek</strong>, mam 32 lata. Dołączyłem do youcode, <b>bo
+                    chyba nigdy
+                    nie
+                    jest za późno
+                    żeby nauczyć się czegoś nowego</b>,
+                co może zaowocować w przyszłości:) Skończyłem Budownictowo na Politechnice Rzeszowskiej i jak na
+                razie
+                pracuję w tym <em>"fachu"</em>.</p>
+        </section>
+
+        <section id="Praca">
+            <h2 class="head">Praca 💬</h2>
+
+            <p class="paragraph">Pracuję jako detailer konstrukcji stalowych w programach CAD, ale chciałbym poszerzać
+                swoje
+                umiejętności w różnych kierunkach.</p>
+        </section>
+
+
+        <section id="Zainteresowania">
+            <h3 class="head">Zainteresowania 💬</h3>
+
+            <p class="paragraph"> Interesuję się <span class="paragraph__hobby">filmem, literaturą i piłką
+                    nożną</span>.<br>Jestem
+                wiernym
+                fanem zespołu
+                <i>Rammstein</i>. W wolnym czasie lubię jeździć na wycieczki
+                rowerowe, ale nie pogardzę
+                również mniej aktywnym spędzaniem wolnego czasu tj. jakąś dobrą grą komputerową:)
+            </p>
+        </section>
+
+
+
+        <table class="table">
+            <caption class="table__title"> Ulubione utwory zespołu Rammstein z poszczególnych albumów</caption>
+            <tr class="table__row">
+                <th class="table__header" scope="col">Album</th>
+                <th class="table__header" scope="col">Utwór</th>
+                <th class="table__header" scope="col">Rok</th>
+            <tr class="table__row">
+                <th class="table__header" scope="row">Herzeleid</th>
+                <td class=table__cell>Du Riechst So Gut</td>
+                <td class=table__cell>1995</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__header" scope="row">Sehnsucht</th>
+                <td class=table__cell>Sehnsucht</td>
+                <td class=table__cell>1997</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__header" scope="row">Mutter</th>
+                <td class=table__cell>Ich Will</td>
+                <td class=table__cell>2001</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__header" scope="row">Reise Reise</th>
+                <td class=table__cell>Reise Reise</td>
+                <td class=table__cell>2004</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__header" scope="row">Rosenrot</th>
+                <td class=table__cell>Rosenrot</td>
+                <td class=table__cell>2005</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__header" scope="row">Liebe Ist Für Alle Da</th>
+                <td class=table__cell>Rammlied</td>
+                <td class=table__cell>2009</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__header" scope="row">Untitled</th>
+                <td class=table__cell>Deutschland</td>
+                <td class=table__cell>2019</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__header" scope="row">Zeit</th>
+                <td class=table__cell>Angst</td>
+                <td class=table__cell>2022</td>
+            </tr>
+        </table>
+        <p>
+            <button class="button">Włącz <span class="themeName">Białe</span> tło</button>
+        </p>
+    </main>
+    <footer class="footer">
+        © 2022 by PT
+    </footer>
+</body>
+
+</html>

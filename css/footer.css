@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.footer {
+    color: #0000ff;
+    border: 2px solid #948c8c;
+    border-radius: 10px;
+    background-color: #c0c0c0;
+    box-shadow: 6px 5px 9px -1px #8C8577;
+    text-align: center;
+    margin-top: 20px;
+
+}
