@@ -24,15 +24,15 @@ html {
     background-color: hsl(0, 3%, 73%);
 }
 
-.table__header {
-    background-color: #193e62;
-    color: #ffffff;
+.table__cell {
     border: 2px solid #706a6a;
     padding: 15px;
     text-align: center;
 }
 
-.table__cell {
+.table__cell--header {
+    background-color: #193e62;
+    color: #ffffff;
     border: 2px solid #706a6a;
     padding: 15px;
     text-align: center;
