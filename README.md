@@ -1,7 +1,12 @@
-# Przemek Tomaka - Moja pierwsza strona
+# Przemek Tomaka - My first site
 
-## Opis
-Oto moja pierwsza strona internetowa, którą stworzyłem w ramach nauki od podstaw
+## Description
+> My very first site which contains
+> short description of my work, my hobbies
+> and my favourite kind of music
 
 ## Demo
 https://przemo3028.github.io/homepage/
+
+## Screen
+![screenshot](https://github.com/Przemo3028/homepage/blob/main/images/screen.png?raw=true)
