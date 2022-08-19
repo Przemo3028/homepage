@@ -1,7 +1,7 @@
 # Przemek Tomaka - My first site
 
 ## Description
-> My very first site which contains
+> My very first site, which contains
 > short description of my work, my hobbies
 > and my favourite kind of music
 

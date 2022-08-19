@@ -22,7 +22,6 @@ html {
     color: #0000ff;
     list-style-type: none;
     padding: 15px;
-
 }
 
 .list__link:visited {
@@ -31,7 +30,6 @@ html {
 
 .list__link:hover {
     color: #ffffff;
-
 }
 
 .list__link:active {
