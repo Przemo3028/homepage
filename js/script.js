@@ -12,7 +12,9 @@
 
     const init = () => {
         const button = document.querySelector(".button");
-        button.addEventListener("click", toggleBackground);
+        button.addEventListener("click", () => {
+            toggleBackground();
+        });
 
         welcome();
     }
